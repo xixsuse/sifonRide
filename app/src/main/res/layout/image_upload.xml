@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/imageDialogText"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/gallery"
+        android:layout_marginTop="16dp"
+        android:text="@string/gallery"
+        android:drawablePadding="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center"
+        android:drawableStart="@drawable/ic_menu_gallery"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/camera"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/Camera"
+        android:drawablePadding="16dp"
+        android:gravity="center"
+        android:drawableStart="@drawable/ic_menu_camera"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/imageAlertBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/done"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_round"/>
+
+</LinearLayout>

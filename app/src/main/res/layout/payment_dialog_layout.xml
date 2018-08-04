@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/payLayout"
+    android:orientation="vertical"
+    android:background="@drawable/border_round_edge">
+
+    <TextView
+        android:text="@string/payment_options"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/card"
+        android:drawableStart="@drawable/ic_credit_card_"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:text="@string/credit_card"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/cash"
+        android:drawableStart="@drawable/ic_account_"
+        android:drawablePadding="16dp"
+        android:text="@string/cash"
+        android:gravity="center_vertical"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/payCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_round"
+        />
+
+</LinearLayout>
